@@ -1,0 +1,19 @@
+
+The following have been reloaded with a version change:
+  1) Java/11.0.4 => Java/15.0.2
+
+File: al2_0.xml seed: 4859 threads: 1
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 210 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 210 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 209 unique site patterns.
+  Using rescaling scheme : dynamic
+Please wait while BEAST takes 1480 pre-burnin samples
+End likelihood: -19055.335245734892

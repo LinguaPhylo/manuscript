@@ -1,0 +1,135 @@
+
+                   BEAST v2.6.5 Prerelease, 2002-2021
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                   Centre for Computational Evolution
+                         University of Auckland
+                       r.bouckaert@auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+          Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1168
+
+BE8078s92 = 10.0 (10.0)
+NYCH09s93 = 9.0 (9.0)
+SE01s92 = 10.0 (10.0)
+SE05s91 = 11.0 (11.0)
+MON1s92 = 10.0 (10.0)
+BE1587s89 = 13.0 (13.0)
+BE614s93 = 9.0 (9.0)
+BE12005s94 = 8.0 (8.0)
+BE174s95 = 7.0 (7.0)
+BE12350s96 = 6.0 (6.0)
+119 more...
+Alignment(sim_0)
+  129 taxa
+  209 sites
+  175 patterns
+
+  Using BEAGLE version: 3.1.2 resource 0: CPU
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Alignment(sim_2)
+  129 taxa
+  210 sites
+  122 patterns
+
+  Using BEAGLE version: 3.1.2 resource 0: CPU
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+Alignment(sim_1)
+  129 taxa
+  210 sites
+  48 patterns
+
+  Using BEAGLE version: 3.1.2 resource 0: CPU
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+===============================================================================
+Citations for this model:
+
+Bouckaert, Remco, Timothy G. Vaughan, Joëlle Barido-Sottani, Sebastián Duchêne, Mathieu Fourment, 
+Alexandra Gavryushkina, Joseph Heled, Graham Jones, Denise Kühnert, Nicola De Maio, Michael Matschiner, 
+Fábio K. Mendes, Nicola F. Müller, Huw A. Ogilvie, Louis du Plessis, Alex Popinga, Andrew Rambaut, 
+David Rasmussen, Igor Siveroni, Marc A. Suchard, Chieh-Hsi Wu, Dong Xie, Chi Zhang, Tanja Stadler, 
+Alexei J. Drummond 
+  BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis. 
+  PLoS computational biology 15, no. 4 (2019): e1006650.
+
+Hasegawa M, Kishino H, Yano T (1985) Dating the human-ape splitting by a
+  molecular clock of mitochondrial DNA. Journal of Molecular Evolution
+  22:160-174.
+
+===============================================================================
+Start likelihood: -5528.169369011865 
+Writing file al2_16.log
+Writing file al2_16.trees
+         Sample      posterior     likelihood          prior         pi_0.A         pi_0.C         pi_0.G         pi_0.T         pi_1.A         pi_1.C         pi_1.G         pi_1.T         pi_2.A         pi_2.C         pi_2.G         pi_2.T        kappa.1        kappa.2        kappa.3            r_0            r_1            r_2             mu          Theta
+              0     -5529.8728     -5113.0945      -416.7783         0.2649         0.5286         0.0632         0.1430         0.2155         0.3751         0.3075         0.1017         0.1674         0.3284         0.1951         0.3089         3.1526         2.0651         2.1212         1.9914         0.2519         0.7613         0.0039        10.5252 --
+        2500000     -5521.9809     -5093.4899      -428.4910         0.2582         0.5653         0.0549         0.1213         0.2345         0.3909         0.2739         0.1005         0.1583         0.3216         0.1862         0.3337         2.9345         1.1076         2.8158         1.8867         0.1709         0.9465         0.0040        11.5939 --
+        5000000     -5529.0259     -5116.5460      -412.4799         0.2514         0.5877         0.0501         0.1106         0.2325         0.4395         0.2572         0.0706         0.1666         0.3315         0.1884         0.3133         3.3041         1.5852         2.6253         1.9315         0.2718         0.8010         0.0038         8.4754 --
+        7500000     -5519.1522     -5099.2007      -419.9515         0.2381         0.5851         0.0613         0.1153         0.1827         0.4684         0.2677         0.0809         0.1854         0.2967         0.1792         0.3385         3.5380         1.5151         2.9625         2.0139         0.1663         0.8245         0.0037        11.0196 --
+       10000000     -5532.0394     -5114.4833      -417.5560         0.2897         0.5256         0.0619         0.1226         0.2264         0.3943         0.2838         0.0953         0.1293         0.2998         0.2103         0.3604         3.6230         1.2860         2.3722         1.9834         0.1888         0.8323         0.0038         7.7087 --
+       12500000     -5512.3484     -5100.5289      -411.8195         0.2759         0.5534         0.0563         0.1142         0.2235         0.3918         0.2797         0.1047         0.1656         0.3280         0.1757         0.3305         2.8060         1.5720         3.5551         2.0698         0.2200         0.7152         0.0040         9.8636 --
+       15000000     -5522.9078     -5108.2510      -414.6567         0.2829         0.5332         0.0574         0.1264         0.2908         0.4024         0.2217         0.0849         0.1475         0.3285         0.1425         0.3813         3.2349         1.5911         3.0698         1.9597         0.2612         0.7835         0.0041         9.8011 1m59s/Msamples
+       17500000     -5500.9738     -5093.7348      -407.2389         0.2670         0.5347         0.0606         0.1374         0.2533         0.3979         0.2593         0.0893         0.1409         0.3229         0.1938         0.3423         2.7573         0.9978         2.3743         1.9064         0.2336         0.8641         0.0039         9.0566 1m59s/Msamples
+       20000000     -5513.8946     -5095.3830      -418.5115         0.2368         0.5869         0.0595         0.1167         0.2793         0.3642         0.2790         0.0773         0.1600         0.3292         0.1519         0.3587         3.0033         2.1189         2.9831         2.0131         0.2708         0.7208         0.0040         9.2580 1m59s/Msamples
+       22500000     -5544.2066     -5112.7925      -431.4141         0.2644         0.5473         0.0625         0.1256         0.2582         0.3969         0.2511         0.0936         0.1371         0.2919         0.1893         0.3815         3.1014         2.4988         2.9229         1.9593         0.2126         0.8325         0.0038        13.1122 1m59s/Msamples
+       25000000     -5529.9211     -5110.1724      -419.7486         0.2529         0.5350         0.0716         0.1403         0.2044         0.4008         0.3021         0.0925         0.1695         0.2965         0.1858         0.3479         2.6493         1.9147         3.3478         2.0411         0.2369         0.7268         0.0038        10.6938 1m59s/Msamples
+       27500000     -5527.1683     -5104.9489      -422.2194         0.2488         0.5697         0.0640         0.1173         0.2333         0.4301         0.2373         0.0991         0.1608         0.2819         0.1755         0.3816         2.8561         3.6571         2.6639         1.9298         0.2459         0.8286         0.0037        11.0570 1m59s/Msamples
+       30000000     -5528.8472     -5114.0396      -414.8075         0.2373         0.5892         0.0721         0.1012         0.2607         0.3657         0.2811         0.0922         0.1605         0.3142         0.1676         0.3575         3.3559         2.8732         2.4672         1.9423         0.1825         0.8795         0.0036         9.3074 1m59s/Msamples
+       32500000     -5516.9023     -5093.1307      -423.7716         0.2249         0.5963         0.0641         0.1145         0.2184         0.4168         0.2591         0.1055         0.1763         0.3116         0.1765         0.3354         3.2498         2.0205         2.9381         1.9928         0.2542         0.7576         0.0036         8.7254 1m59s/Msamples
+       35000000     -5530.8699     -5110.9675      -419.9024         0.2160         0.6012         0.0534         0.1292         0.2090         0.3896         0.3015         0.0998         0.1653         0.2918         0.1869         0.3558         2.8605         1.3145         2.5475         2.0035         0.1647         0.8364         0.0041        11.6530 1m59s/Msamples
+       37500000     -5518.9792     -5101.7718      -417.2074         0.2480         0.5763         0.0663         0.1092         0.2713         0.3818         0.2416         0.1051         0.1915         0.3173         0.1833         0.3077         3.2190         1.2347         2.7059         1.9645         0.2279         0.8119         0.0040         9.4352 1m59s/Msamples
+       40000000     -5520.3597     -5092.4481      -427.9115         0.2539         0.5592         0.0688         0.1179         0.2865         0.3612         0.2533         0.0989         0.1483         0.2919         0.1894         0.3702         3.8712         1.5013         2.7208         1.9146         0.2438         0.8458         0.0039        10.1164 1m59s/Msamples
+       42500000     -5532.7432     -5115.5512      -417.1920         0.2522         0.5700         0.0566         0.1210         0.2925         0.3684         0.2579         0.0811         0.1436         0.3305         0.1878         0.3380         3.1964         1.2683         3.4398         2.0411         0.1956         0.7680         0.0040        10.8296 1m59s/Msamples
+       45000000     -5519.2438     -5098.5071      -420.7367         0.2512         0.5323         0.0673         0.1490         0.2481         0.3761         0.3108         0.0648         0.1623         0.2786         0.2078         0.3510         3.0626         1.6327         2.9804         2.0148         0.1618         0.8281         0.0039        11.1208 1m59s/Msamples
+       47500000     -5514.9305     -5106.5030      -408.4274         0.2390         0.5521         0.0804         0.1283         0.2603         0.3944         0.2407         0.1044         0.1455         0.3172         0.1850         0.3521         3.0980         2.1989         3.4088         1.9088         0.2018         0.8935         0.0040         9.6974 1m59s/Msamples
+       50000000     -5517.5793     -5102.2669      -415.3124         0.2540         0.5695         0.0608         0.1155         0.2679         0.3373         0.3042         0.0903         0.1629         0.3487         0.1656         0.3226         2.7849         2.8071         2.6376         1.9731         0.2297         0.8016         0.0037         9.8644 1m59s/Msamples
+
+Operator                                      Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(Theta.scale)                   0.57840      55327     168717    0.00450    0.24695 
+ScaleOperator(kappa.scale)                   0.42034     126180     358376    0.00970    0.26040 
+ScaleOperator(mu.scale)                      0.77266      52891     171646    0.00450    0.23556 
+UpDownOperator(muUppsiDownOperator)          0.97193     147601    6599878    0.13497    0.02187 Try setting scaleFactor to about 0.986
+DeltaExchangeOperator(pi_0.deltaExchange)    0.07668      92799     390801    0.00970    0.19189 
+DeltaExchangeOperator(pi_1.deltaExchange)    0.16599      88567     395660    0.00970    0.18290 
+DeltaExchangeOperator(pi_2.deltaExchange)    0.12508     102723     382329    0.00970    0.21178 
+Exchange(psi.narrowExchange)                       -    1452272    5259171    0.13424    0.21639 
+ScaleOperator(psi.rootAgeScale)              0.82526      37928     187514    0.00450    0.16824 
+ScaleOperator(psi.scale)                     0.96484     115494    6595324    0.13424    0.01721 Try setting scaleFactor to about 0.982
+SubtreeSlide(psi.subtreeSlide)               2.43282     830355    5879807    0.13424    0.12375 
+Uniform(psi.uniform)                               -    3423358    3287508    0.13424    0.51012 
+Exchange(psi.wideExchange)                         -      11796    6703428    0.13424    0.00176 
+WilsonBalding(psi.wilsonBalding)                   -      25379    6692024    0.13424    0.00378 
+DeltaExchangeOperator(r.deltaExchange)       0.26753      74852     290296    0.00730    0.20499 
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+
+Total calculation time: 5965.833 seconds
