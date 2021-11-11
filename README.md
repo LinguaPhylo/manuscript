@@ -1,2 +1,2 @@
-# manuscript
-to keep the supplementary materials
+# supplementary
+to keep the supplementary materials, especially large files
